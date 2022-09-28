@@ -11,6 +11,17 @@
 		6873315128E14BF6006CF8CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873315028E14BF6006CF8CC /* ContentView.swift */; };
 		6873315328E14BF7006CF8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6873315228E14BF7006CF8CC /* Assets.xcassets */; };
 		6873315628E14BF7006CF8CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6873315528E14BF7006CF8CC /* Preview Assets.xcassets */; };
+		6873315D28E1573C006CF8CC /* PlaceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873315C28E1573C006CF8CC /* PlaceCardView.swift */; };
+		6873316028E1855F006CF8CC /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873315F28E1855F006CF8CC /* Place.swift */; };
+		6873316428E19164006CF8CC /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873316328E19163006CF8CC /* PlaceDetailView.swift */; };
+		6873316628E28DAF006CF8CC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873316528E28DAF006CF8CC /* MapView.swift */; };
+		6873316928E2B403006CF8CC /* placeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6873316828E2B403006CF8CC /* placeData.json */; };
+		6873316C28E2BEE8006CF8CC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873316B28E2BEE8006CF8CC /* ModelData.swift */; };
+		6873317028E2CC91006CF8CC /* PlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873316F28E2CC91006CF8CC /* PlaceList.swift */; };
+		6873317328E2DEB4006CF8CC /* PlaceCardTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873317228E2DEB4006CF8CC /* PlaceCardTitle.swift */; };
+		6873317528E2DF9F006CF8CC /* PlaceCardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873317428E2DF9F006CF8CC /* PlaceCardImage.swift */; };
+		6873317728E2E19C006CF8CC /* PlaceCardBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873317628E2E19C006CF8CC /* PlaceCardBackground.swift */; };
+		6873317A28E33261006CF8CC /* PlaceDetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873317928E33261006CF8CC /* PlaceDetailHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		6873315028E14BF6006CF8CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6873315228E14BF7006CF8CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6873315528E14BF7006CF8CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6873315C28E1573C006CF8CC /* PlaceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCardView.swift; sourceTree = "<group>"; };
+		6873315F28E1855F006CF8CC /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		6873316328E19163006CF8CC /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		6873316528E28DAF006CF8CC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6873316828E2B403006CF8CC /* placeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = placeData.json; sourceTree = "<group>"; };
+		6873316B28E2BEE8006CF8CC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		6873316F28E2CC91006CF8CC /* PlaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceList.swift; sourceTree = "<group>"; };
+		6873317228E2DEB4006CF8CC /* PlaceCardTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCardTitle.swift; sourceTree = "<group>"; };
+		6873317428E2DF9F006CF8CC /* PlaceCardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCardImage.swift; sourceTree = "<group>"; };
+		6873317628E2E19C006CF8CC /* PlaceCardBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCardBackground.swift; sourceTree = "<group>"; };
+		6873317928E33261006CF8CC /* PlaceDetailHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				6873314E28E14BF6006CF8CC /* TrailApp.swift */,
-				6873315028E14BF6006CF8CC /* ContentView.swift */,
+				6873316728E295F4006CF8CC /* Views */,
+				6873315E28E1854C006CF8CC /* Model */,
+				6873316A28E2B40C006CF8CC /* Resources */,
 				6873315228E14BF7006CF8CC /* Assets.xcassets */,
 				6873315428E14BF7006CF8CC /* Preview Content */,
 			);
@@ -65,6 +89,55 @@
 				6873315528E14BF7006CF8CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6873315E28E1854C006CF8CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6873316B28E2BEE8006CF8CC /* ModelData.swift */,
+				6873315F28E1855F006CF8CC /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6873316728E295F4006CF8CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6873315028E14BF6006CF8CC /* ContentView.swift */,
+				6873316F28E2CC91006CF8CC /* PlaceList.swift */,
+				6873317128E2DE82006CF8CC /* PlaceCard */,
+				6873317828E331D0006CF8CC /* PlaceDetail */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6873316A28E2B40C006CF8CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6873316828E2B403006CF8CC /* placeData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6873317128E2DE82006CF8CC /* PlaceCard */ = {
+			isa = PBXGroup;
+			children = (
+				6873315C28E1573C006CF8CC /* PlaceCardView.swift */,
+				6873317628E2E19C006CF8CC /* PlaceCardBackground.swift */,
+				6873317428E2DF9F006CF8CC /* PlaceCardImage.swift */,
+				6873317228E2DEB4006CF8CC /* PlaceCardTitle.swift */,
+			);
+			path = PlaceCard;
+			sourceTree = "<group>";
+		};
+		6873317828E331D0006CF8CC /* PlaceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6873316328E19163006CF8CC /* PlaceDetailView.swift */,
+				6873317928E33261006CF8CC /* PlaceDetailHeader.swift */,
+				6873316528E28DAF006CF8CC /* MapView.swift */,
+			);
+			path = PlaceDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +200,7 @@
 			files = (
 				6873315628E14BF7006CF8CC /* Preview Assets.xcassets in Resources */,
 				6873315328E14BF7006CF8CC /* Assets.xcassets in Resources */,
+				6873316928E2B403006CF8CC /* placeData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +211,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6873316428E19164006CF8CC /* PlaceDetailView.swift in Sources */,
+				6873316628E28DAF006CF8CC /* MapView.swift in Sources */,
+				6873316028E1855F006CF8CC /* Place.swift in Sources */,
+				6873317528E2DF9F006CF8CC /* PlaceCardImage.swift in Sources */,
+				6873317028E2CC91006CF8CC /* PlaceList.swift in Sources */,
 				6873315128E14BF6006CF8CC /* ContentView.swift in Sources */,
+				6873317728E2E19C006CF8CC /* PlaceCardBackground.swift in Sources */,
+				6873317328E2DEB4006CF8CC /* PlaceCardTitle.swift in Sources */,
 				6873314F28E14BF6006CF8CC /* TrailApp.swift in Sources */,
+				6873315D28E1573C006CF8CC /* PlaceCardView.swift in Sources */,
+				6873316C28E2BEE8006CF8CC /* ModelData.swift in Sources */,
+				6873317A28E33261006CF8CC /* PlaceDetailHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

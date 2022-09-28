@@ -1,0 +1,44 @@
+[
+  {
+    "name": "금정산",
+    "category": "싱글 트랙",
+    "city": "부산",
+    "id": 1001,
+    "isFavorite": true,
+    "trailCount": 6,
+	"imageName": "geumjungsan",
+    "coordinates": {
+      "longitude": 129.045044,
+      "latitude": 35.231474
+    },
+    "description": "부산에서 가장 많은 라이더들이 찾는 산입니다. 부산의 중심에 위치하여 접근성이 좋아 등산객이 많기 때문에 적절한 라이딩 시간을 선택하는 것이 중요합니다. 장전동 또는 화명동 방면에서 산성마을까지 포장된 도로를 따라 차량으로 이동한 다음 트레일을 찾는 것이 효율적입니다."
+  },
+  {
+    "name": "장산",
+    "category": "싱글 트랙",
+    "city": "부산",
+    "id": 1002,
+    "isFavorite": false,
+    "trailCount": 4,
+	"imageName": "jangsan",
+    "coordinates": {
+      "longitude": 129.15149,
+      "latitude": 35.196006
+    },
+    "description": "부산 해운대에 위치한 산입니다. 좌동 대천공원에서 출발하는 포장된 산책로를 통한 오르막 코스는 다양한 경사도로 이루어져 있어 체력을 단련하기에 좋습니다."
+  },
+  {
+    "name": "천성산",
+    "category": "싱글 트랙",
+    "city": "양산",
+    "id": 1003,
+    "isFavorite": false,
+    "trailCount": 1,
+	"imageName": "geumjungsan",
+    "coordinates": {
+      "longitude": 129.112149,
+      "latitude": 35.420248
+    },
+    "description": "양산 상북면에 위치한 산입니다. 등산객이 적은편이고 코스도 훌륭하지만 셔틀 차량 없이는 다운힐 출발 지점까지 이동하는데 많은 에너지가 소모 됩니다."
+  }
+]
